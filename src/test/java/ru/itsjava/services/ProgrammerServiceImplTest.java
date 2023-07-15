@@ -11,7 +11,7 @@ import ru.itsjava.domain.Notebook;
 
 import static org.mockito.Mockito.when;
 @SpringBootTest
-@DisplayName("Класс ProgrammerService")
+@DisplayName("РљР»Р°СЃСЃ ProgrammerServiceImpl")
 public class ProgrammerServiceImplTest {
 
     @Configuration
@@ -41,7 +41,7 @@ public class ProgrammerServiceImplTest {
     private ProgrammerService programmerService;
 
 
-    @DisplayName("Корректный метод Привет-программист")
+    @DisplayName("РєРѕСЂСЂРµРєС‚РЅС‹Р№ РјРµС‚РѕРґ РџСЂРёРІРµС‚-РїСЂРѕРіСЂР°РјРјРёСЃС‚")
     @Test
     public void shouldHaveCorrectSayHiToNewProgrammer() {
         programmerService.hiToNewProgrammer();
